@@ -1,0 +1,114 @@
+<DOCTTYPE html>
+
+<html>
+	<head>
+		<title> Invie tus mejores guitarras</title> <!-- titulo de la página -->
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/invie.css"/>
+
+
+	</head>
+	<body>
+		
+		<section id="portada" class="portada background"> <!-- portada -->
+			<header id="header" class="header contenedor"> <!-- header -->
+				<figure class="logotipo"> <!-- logotipo -->
+					<img src="images/invie.png" witdth="186" heigth="60" alt="invie logo"/>
+				</figure> 
+				<nav class="menu"> <!-- menu -->
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="#guitarras">Guitarras</a>
+						</li>					
+						<li>
+							<a href="precios.html">Precios</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="contenedor">
+				<h1 class="titulo">Guitarras <span>invie</span>sibles</h1> <!-- titulo -->
+				<h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3>
+				<a class="button" href="#guitarras"> Conoce más</a>
+			</div>
+		</section>
+		<section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
+			
+				<h2>Nuestras guitarras</h2>
+				<article class="guitarra">
+					<img class="right" src="images/invie-acustica.png" width="350" alt="Guitarra Invie acústica"/>
+					<div class="contenedor-guitarra-a">						
+						<h3 class="title-b">Invie acústica</h3>
+						<ol>					
+							<li>Estilo Vintage</li>
+							<li>Madera pura</li>
+							<li>Incluye estuche invisible de aluminio</li>
+						</ol>
+					</div>
+				
+			</article>
+			<article class="guitarra b">
+				<img class="left" src="images/invie-classic.png" width="450" alt="Guitrra Invie classic"/>
+				<div class="contenedor-guitarra-b">
+					<h3 class="title-b">Invie classic</h3>
+					<ol>					
+						<li>Estilo Vintage</li>
+						<li>Liviana</li>
+						<li>Inicia tu camino como rockstar</li>
+					</ol>
+				</div>
+			</article>
+			
+		</section>
+		<footer class="footer">
+			<div class="contenedor">				
+				<div class="contacto">
+					<img src="images/invie-white.png" alt="Logotipo blanco"/>
+					<a href="tel:+3007613202"><strong>Teléfono </strong><span>3007613202</span></a>
+					<a href="mailto:contacto@invie.com.co"><strong>E-mail </strong><span>contacto@invie.com.co</span></a>
+				</div>
+			<form class="formulario">
+				<div class="col1">					
+					<label for="nombre">Nombre</label/>
+					<input type="text" required id="nombre" name="nombre"/>
+					<label for="email">E-mail</label/>
+					<input type="email" required id="email"/>
+					<div class="sexo">					
+						<label for="mujer">					
+						<input type="radio" id="mujer"name="sexo" checked value="mujer" >Mujer</label>						
+						<label for="hombre">					
+						<input type="radio" id="hombre" name="sexo" value="hombre">Hombre</label>						
+					</div>				
+					<div class="intereses">
+					<label for="cotizacion">						
+						<input type="checkbox" id="cotizacion" name="Intereses" checked value="cotizacion">Cotización
+					</label>
+					<label for="reclamos">						
+						<input type="checkbox" id="reclamos" name="Intereses" value="reclamos">Reclamos
+					</label>
+					<label for="comentarios">						
+						<input type="checkbox" id="comentarios" name="Intereses" value="comentarios">Comentarios
+					</label>
+					<label for="otros">						
+						<input type="checkbox" id="otros" name="otros" value="otros">Otros
+					</label>
+					</div>
+					</div>
+				
+				<div class="col2">
+					<label for="comentarios">Comentarios</label>
+					<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+					<input class="button" type="submit" value="Enviar"/>
+				</div>
+			</form>
+				
+			</div>
+		</footer>
+		
+	</body>
+</html>
