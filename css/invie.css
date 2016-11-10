@@ -245,8 +245,8 @@ input:focus, textarea:focus {
 
 
 @media screen and (max-width: 800px){
-	body{
-		background: peru;
-		border: 15px solid lightblue;
+	.contenedor {
+		width: auto;
+		max-width: 800px;
 	}
 }
