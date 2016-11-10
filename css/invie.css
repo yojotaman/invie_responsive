@@ -46,7 +46,7 @@ input:focus, textarea:focus {
 	background: lightgray;
 }
 .contenedor {
-	width: 850px;
+	max-width: 850px;
 	margin: auto;
 	position: relative;
 }
@@ -245,8 +245,8 @@ input:focus, textarea:focus {
 
 
 @media screen and (max-width: 800px){
-	.contenedor {
+	/*.contenedor {
 		width: auto;
-		max-width: 800px;
-	}
+		max-width: 850px;
+	}*/
 }
